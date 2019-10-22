@@ -1,0 +1,17 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Read file') {
+            steps {
+                echo 'Reading...'
+                
+            }
+        }
+        stage('Display File') {
+            steps {
+                echo ''
+            }
+        }
+    }
+}
