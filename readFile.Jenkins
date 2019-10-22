@@ -1,9 +1,9 @@
 pipeline {
-    agent none
+    agent any
     stages{
         stage('Read File'){
             steps{
-                echo 'Hello World'
+                //echo 'Hello World'
             }
         }
     }
